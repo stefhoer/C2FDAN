@@ -9,7 +9,7 @@ mnemonic-words/master/words.json))
   - text: height ratio (height of text / height of image) in {0.1, 0.3, 0.5} 
 - position: (mouth, nose, eyes, outside)
 
-![dataset](https://github.com/stefhoer/c2fdan/raw/main/resources/dataset.png)
+![dataset](https://github.com/stefhoer/C2FDAN/raw/main/ressources/dataset.png)
 
 ## Download
 
