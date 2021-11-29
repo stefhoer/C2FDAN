@@ -1,5 +1,4 @@
-```
-# C2FDAN
+# C2FDAN 
 
 We release a dataset to evaluate face identification performance of occluded faces based on [MegaFace](http://megaface.cs.washington.edu/). Our occlusion vary in form, color, size, and position:
 - form: rectangle (aspect ratio 0.5 - 2) and text ([list](https://raw.githubusercontent.com/sindresorhus/
@@ -14,7 +13,7 @@ mnemonic-words/master/words.json))
 
 ## Download
 
-We provide masks and occluded images for all facescrub gallery images of the Megaface benchmark. The probe images remain untouched. Download the dataset from [http://vis-www.cs.umass.edu/lfw/](http://vis-www.cs.umass.edu/lfw/).
+We provide masks and occluded images for all facescrub gallery images of the Megaface benchmark. The probe images remain untouched. Download the dataset from [http://megaface.cs.washington.edu/](http://megaface.cs.washington.edu/) or [https://github.com/deepinsight/insightface](https://github.com/deepinsight/insightface).
 
 ```shell
 MegaFace-facescrub
@@ -55,22 +54,19 @@ To align the faces we make use of 5 landmarks extracted by MTCNN [^1].  The alig
 If you find PartialLFW useful in your research, please cite the following papers:
 
 ~~~tex
-@INPROCEEDINGS{hoermann2021attention,
-    author={Hörmann, Stefan and Zhang, Zeyuan and Knoche, Martin and Teepe, Torben and Rigoll, Gerhard},
-    booktitle={2021 IEEE International Conference on Image Processing (ICIP)}, 
-    title={{Attention-Based Partial Face Recognition}}, 
+@INPROCEEDINGS{hoermann2021C2FDAN,
+    author={Hörmann, Stefan and Zhibing, Xia and Knoche, Martin and Rigoll, Gerhard},
+    booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)}, 
+    title={{A Coarse-to-Fine Dual Attention Network for Blind Face Completion}}, 
     year={2021},
-    pages={2978-2982},
-    doi={10.1109/ICIP42928.2021.9506476}
   }
 
-@TechReport{LFWTechUpdate,
-    author={Huang, Gary B and Learned-Miller, Erik},
-    title={Labeled Faces in the Wild: Updates and New Reporting Procedures},
-    institution={University of Massachusetts, Amherst},
-    year={2014},
-    number={UM-CS-2014-003},
-    month={May}
+@inproceedings{kemelmacher2016megaface,
+  title={The megaface benchmark: 1 million faces for recognition at scale},
+  author={Kemelmacher-Shlizerman, Ira and Seitz, Steven M and Miller, Daniel and Brossard, Evan},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={4873--4882},
+  year={2016}
 }
 ~~~
 
