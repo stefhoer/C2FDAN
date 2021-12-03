@@ -57,7 +57,7 @@ To align the faces we make use of 5 landmarks extracted by MTCNN [^1].  The alig
 If you find PartialLFW useful in your research, please cite the following papers:
 
 ~~~tex
-@INPROCEEDINGS{hoermann2021C2FDAN,
+@inproceedings{hoermann2021C2FDAN,
     author={Hörmann, Stefan and Zhibing, Xia and Knoche, Martin and Rigoll, Gerhard},
     booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)}, 
     title={{A Coarse-to-Fine Dual Attention Network for Blind Face Completion}}, 
