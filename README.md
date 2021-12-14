@@ -16,7 +16,7 @@ Examples of occluded faces with different occlusions:
 
 ## Download
 
-We provide masks and occluded images for all facescrub gallery images of the Megaface benchmark ([DOWNLOAD](https://webdisk.ads.mwn.de/Handlers/AnonymousDownload.ashx?folder=18e2eac4&path=Datenbanken/C2FDAN-MegaFace-FaceScrub-occluded.zip). The probe images remain untouched. Download the dataset from [http://megaface.cs.washington.edu/](http://megaface.cs.washington.edu/) or [https://github.com/deepinsight/insightface](https://github.com/deepinsight/insightface).
+We provide masks and occluded images for all facescrub gallery images of the Megaface benchmark ([DOWNLOAD](https://webdisk.ads.mwn.de/Handlers/AnonymousDownload.ashx?folder=18e2eac4&path=Datenbanken/C2FDAN-MegaFace-FaceScrub-occluded.zip)). The probe images remain untouched. Download the dataset from [http://megaface.cs.washington.edu/](http://megaface.cs.washington.edu/) or [https://github.com/deepinsight/insightface](https://github.com/deepinsight/insightface).
 
 ```shell
 MegaFace-facescrub
