@@ -1,6 +1,6 @@
 # C2FDAN 
 
-We release a dataset to evaluate face identification performance of occluded faces based on [MegaFace](http://megaface.cs.washington.edu/). Our occlusion vary in form, color, size, and position:
+We release a dataset to evaluate face identification performance of occluded faces based on [MegaFace](http://megaface.cs.washington.edu/). Our occlusions vary in form, color, size, and position:
 - form: rectangle (aspect ratio 0.5 - 2) and text ([list](https://raw.githubusercontent.com/sindresorhus/mnemonic-words/master/words.json))
 - color: random in RGB color space
 - size: rectangle and text
